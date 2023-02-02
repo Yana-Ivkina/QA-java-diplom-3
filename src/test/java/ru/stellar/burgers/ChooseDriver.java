@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class ChooseDriver {
     private String url;
+
     protected WebDriver getDriver(BrowserName browserName) {
         switch (browserName) {
             case Google:

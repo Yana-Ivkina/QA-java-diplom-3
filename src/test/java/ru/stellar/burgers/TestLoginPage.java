@@ -63,5 +63,4 @@ public class TestLoginPage extends ChooseDriver {
     public void teardown() {
         driver.close();
     }
-
 }

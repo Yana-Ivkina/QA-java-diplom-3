@@ -59,7 +59,7 @@ public class TestPersonalAccount extends ChooseDriver {
     public void clickLogoutInPersonalAccount() {
         driver.get("https://stellarburgers.nomoreparties.site/account/profile");
         PersonalPage personalPage = new PersonalPage(driver);
-        personalPage.clickOnButtonBurgerLogo();
+        personalPage.clickOnButtonLogout();
     }
 
     @After
