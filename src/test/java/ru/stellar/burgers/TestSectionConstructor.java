@@ -20,10 +20,13 @@ public class TestSectionConstructor extends ChooseDriver {
     @Test
     public void navigationThroughSections() {
         SectionConstructor sectionConstructor = new SectionConstructor(driver);
+
         sectionConstructor.clickOnButtonSaucesSection();
         assertTrue(sectionConstructor.openSaucesSection());
+
         sectionConstructor.clickOnButtonToppingsSection();
         assertTrue(sectionConstructor.openToppingsSection());
+
         sectionConstructor.clickOnButtonBunsSection();
         assertTrue(sectionConstructor.openBunsSection());
     }
@@ -32,5 +35,4 @@ public class TestSectionConstructor extends ChooseDriver {
     public void teardown() {
         driver.close();
     }
-
 }
